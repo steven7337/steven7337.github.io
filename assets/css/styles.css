@@ -265,6 +265,23 @@ p {
   margin-bottom: 0;
 }
 
+.main-wrapper .publications-section .container {
+  width: 50%;
+}
+
+.main-wrapper .publications-section .container img {
+  max-height:100%;
+  max-width: 100%;
+}
+
+.main-wrapper .publications-section .container:hover img {
+    -webkit-transform:scale(3); /* Safari and Chrome */
+    -moz-transform:scale(3); /* Firefox */
+    -ms-transform:scale(3); /* IE 9 */
+    -o-transform:scale(3); /* Opera */
+     transform:scale(3);
+}
+
 .skillset .item {
   margin-bottom: 15px;
   overflow: hidden;
